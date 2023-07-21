@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-size: x-large;
+  
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #040404;
+  
+}
+
+main {
+  padding: 20px;
+  box-shadow: 0 1px 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  accent-color: rgb(19, 112, 175);
+  border-color: rgb(19, 112, 175);
+ 
+}
+
+input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+}
+
+input[type=range] {
+  width: 90%;
+}
+
+
+button {
+  background-color:rgb(19, 112, 175);
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+button:active {
+  transition: background-color 0s;
+  background-color: #000000;
+}
+
+p {
+ position: absolute;
+  height: 600px;
+  color: #ffffff;
+}
+
+
+
